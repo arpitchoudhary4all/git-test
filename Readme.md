@@ -16,9 +16,9 @@ Git Test
 
 8. To commit the current staging area to your Git repository  = git commit -m "first commit"
 
-9.To check the log of the commits to your Git repository  = git log --oneline
+9. To check the log of the commits to your Git repository  = git log --oneline
 
 10.To check out some file from a particular commit, find the number of that commit using the git log  = git checkout <commit's number> <file'name>
 
-11. To discard the effect of the previous operation and restore index.html to its state at the end of the third commit  = git reset HEAD index.html + git checkout -- index.html
+11.To discard the effect of the previous operation and restore index.html to its state at the end of the third commit  = git reset HEAD index.html + git checkout -- index.html
 
