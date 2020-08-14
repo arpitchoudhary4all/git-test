@@ -18,9 +18,12 @@ Git Test
 
 9. To check the log of the commits to your Git repository  = git log --oneline
 
+
 Note  - To check out some file from a particular commit, find the number of that commit using the git log
+        
         git checkout <commit's number> <file'name>
 
 Note  - To discard the effect of the previous operation and restore index.html to its state at the end of last commit
+        
         git reset HEAD index.html + git checkout -- index.html
 
